@@ -1,0 +1,61 @@
+import React from "react";
+
+let Message= ()=>{
+    return(
+    <>
+    <p>Message Work</p>
+    </>
+    );
+}
+
+export default Message;
+
+
+
+/*Card*/
+
+<div className="container">
+        <div className="row">
+            <div className="col-md-4">
+                <div className="card">
+                    <div className="card-header">
+
+                    </div>
+                    <div className="card-body">
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    /*State Hooks*/
+
+    let Message= ()=>{
+        let [state,setState]=useState({
+            message:'Hello'
+        });
+
+
+
+        const [isOpen,setIsOpen]=useState(false);
+        const toggle = ()=>(!isOpen);
+
+        style={{width :isOpen ? "300px" : "50px"}} 
+        style={{marginLeft :isOpen ? "300px" : "0px"}} 
+        style={{display:isOpen ? "block" : "none"}}
+
+
+        <tr>
+            <td>021</td>
+            <td>Jagannath Mahanta</td>
+            <td>jagannath.mahanta@logituit.com</td>
+            <td>7008928140</td>
+            <td>Software Trainee</td>
+            <td>Bangalore </td>
+            <td><a href="" ><i className="fa fa-edit"></i></a></td>
+            <td><a href=""><i className="fa fa-trash"></i></a></td>
+            <td><a href="/"><button className="btn btn-sm">Add Asset</button></a></td>
+            <td><a href="/"><button className="btn btn-sm">Remove Asset</button></a></td>
+        </tr>
